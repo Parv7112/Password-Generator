@@ -1,0 +1,58 @@
+.strength-bars {
+  display: flex; /* Use flexbox to arrange the bars horizontally */
+}
+
+.strength-bar {
+  height: 20px; /* Adjust the height of the bars as needed */
+  width: 10px; /* Adjust the width of the bars as needed */
+  margin-right: 5px; /* Add spacing between the bars */
+}
+
+/* Define the styles for different strength levels */
+.very-weak-bar {
+  background-color: red;
+}
+
+.weak-bar {
+  background-color: red;
+}
+
+.fair-bar {
+  background-color: orange;
+}
+
+.strong-bar {
+  background-color: green;
+}
+
+.very-strong-bar {
+  background-color: green;
+}
+
+.generate-button {
+  background-color: lightgreen;
+  border: none;
+}
+
+/* input[type="range"]::-webkit-slider-runnable-track {
+  background: lightgreen; /* Change the track color */
+/* } */
+
+.copy-button {
+  color: lightgreen;
+  border: none;
+}
+
+.generated-button {
+  border: none;
+}
+
+.initial-container {
+  width: 30%!important;
+}
+
+@media screen and (max-width: 767px) {
+  .initial-container {
+    width: 70%!important;
+    }
+}
