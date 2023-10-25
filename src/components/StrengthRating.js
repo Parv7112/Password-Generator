@@ -4,7 +4,6 @@ import './App.css';
 function StrengthRating(props) {
   const ratings = ['Very Weak', 'Weak', 'Fair', 'Strong', 'Very Strong'];
 
-  // Define CSS classes for the horizontal strength bars
   const barClasses = [
     'very-weak-bar',
     'weak-bar',

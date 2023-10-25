@@ -1,14 +1,13 @@
 .strength-bars {
-  display: flex; /* Use flexbox to arrange the bars horizontally */
+  display: flex;
 }
 
 .strength-bar {
-  height: 20px; /* Adjust the height of the bars as needed */
-  width: 10px; /* Adjust the width of the bars as needed */
-  margin-right: 5px; /* Add spacing between the bars */
+  height: 20px;
+  width: 10px;
+  margin-right: 5px;
 }
 
-/* Define the styles for different strength levels */
 .very-weak-bar {
   background-color: red;
 }
@@ -33,10 +32,6 @@
   background-color: lightgreen;
   border: none;
 }
-
-/* input[type="range"]::-webkit-slider-runnable-track {
-  background: lightgreen; /* Change the track color */
-/* } */
 
 .copy-button {
   color: lightgreen;

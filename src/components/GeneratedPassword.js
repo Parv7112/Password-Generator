@@ -1,4 +1,3 @@
-// src/components/GeneratedPassword.js
 import React from "react";
 
 function GeneratedPassword(props) {
